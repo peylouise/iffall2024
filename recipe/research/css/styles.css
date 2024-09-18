@@ -1,0 +1,97 @@
+
+html {
+    font-family: "Ariel", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+  }
+  
+.sofadi-one-regular {
+  font-family: "Sofadi One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1{
+    text-align: left;
+    color: rgb(61, 61, 131);
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    font-family: "Sofadi One", system-ui;
+    line-height: 5%;
+    margin-left: 15%;
+}
+
+
+h2{
+    color: rgb(65, 16, 111);
+    letter-spacing: -0.02em;
+    text-transform: capitalize;
+    text-align: left;
+    margin-left: 15%;
+    font-family: "Ariel", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.0;
+    text-transform: uppercase;
+}
+
+h3{
+    text-align: center;
+    font-family: "Ariel", sans-serif;;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.0;
+    color: rgb(65, 16, 111);
+}
+
+h4{
+    text-align: center;
+    color: rgb(65, 16, 111);
+    font-family: "Sofadi One", system-ui;
+    font-size: 75px;
+}
+
+
+body{
+    background-color: azure;
+    margin:5%
+    
+}
+
+p{
+    text-align: left;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.25em;
+    margin-left: 17%;
+    margin-right: 17%;
+    color: black
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    margin-top: -7%;
+  }
+
+  section{
+    margin: 1.5em 0;
+}
+
+article{
+    margin:2.25rem 0;
+}
+
+div{
+    letter-spacing: -0.04em;
+    line-height: 1.25em;
+    font-size: 16px;
+    text-align: left;
+    font-family: "Ariel", sans-serif;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
