@@ -1,0 +1,150 @@
+body{
+    font-family: "Archivo Narrow", sans-serif;
+}
+
+
+h1{
+    font-size: 80px;
+    margin: 0;
+    line-height: 1;
+    margin-bottom: 16px;
+    color: white
+}
+
+h2{
+    font-size: 30px;
+    line-height: 0.39;
+    color: white
+}
+
+h3{
+    font-size: 40px;
+    margin:0;
+    margin-bottom: 10px;
+    line-height: 1;
+    text-align: center;
+
+}
+
+h4{
+    font-size: 40px;
+    margin:0;
+    margin-top: 15px;
+    margin-bottom: 38px;
+    line-height: 1;
+    text-align: center;
+}
+
+h5{
+    font-size: 40px;
+    margin:0;
+    margin-bottom: 37px;
+    line-height: 1;
+    text-align: center;
+}
+
+h6{
+    font-size: 20px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+header{
+    text-align: center;
+    padding-top: 166px;
+    padding-bottom: 188px;
+    background-color: red;
+    background-image: url('../images/cat1.jpg');
+    background-size: cover; 
+}
+
+p{
+    font-size: 18px;
+    line-height: 1.4em;
+}
+
+section{
+    margin:auto;
+    width: 960px;
+}
+
+section > div{
+    width: 960px
+    margin auto;
+    padding-top: 32px;
+}
+
+.using-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 100%;
+    padding: 0 0 0 0;
+    margin-bottom: 3em;
+}
+
+.using-grid li img{
+    width: 200px;
+    height: 150px;
+    object-fit:cover;
+    margin: 0;
+    padding-bottom:19px;
+}
+
+.using-grid li div{
+    margin-left: -27px;
+    margin-right: 20px;
+    float: right;
+
+}
+
+ul{
+    list-style-type: none;
+}
+
+.thumbnail-grid h3{
+    margin-top: 0;
+    padding-top:10px;
+}
+
+
+img.floating-cat{
+    float:right;
+    margin: auto;
+    width: 401px;
+    margin-left: 16px;
+    margin-bottom: 16px;
+}
+
+
+.floated-photo{
+    background-color: lightblue;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-bottom: 3rem;
+    padding-right: 13rem;
+    padding-left: 16rem;
+}
+
+
+.summary{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color:lightpink;
+    width:100%;
+    height:325;
+}
+
+.last_section{
+    text-align:center;
+    font-size: 26px;
+    padding: 0 120px 0 120px;
+    line-height: 1.42;
+    margin-bottom:63px;
+}
+
+.footer{
+    margin-top:17px;
+    background-color: gray;
+}
+
+
