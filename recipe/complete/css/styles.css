@@ -1,0 +1,184 @@
+html {
+    font-family: "Ariel", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+  }
+  
+.sofadi-one-regular {
+  font-family: "Sofadi One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1{
+    
+    color: rgb(61, 61, 131);
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    font-family: "Sofadi One", system-ui;
+    line-height: 5%;
+    font-size: 2em;
+    
+}
+
+
+h2{
+    color: rgb(65, 16, 111);
+    letter-spacing: -0.02em;
+    text-transform: capitalize;
+    text-align: left;
+    font-family: "Ariel", sans-serif;
+    font-size: 1.4em;
+    font-weight: 400;
+    line-height: 0.4rem;
+    text-transform: uppercase;
+}
+
+h3{
+    text-align: left;
+    font-family: "Ariel", sans-serif;;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.0;
+    color: rgb(65, 16, 111);
+}
+
+h4{
+    text-align: center;
+    color: rgb(65, 16, 111);
+    font-family: "Sofadi One", system-ui;
+    font-size: 68px;
+    margin-bottom: .50em;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+
+body{
+    background-color: azure;
+    margin:.25em;
+    
+}
+
+p{
+    text-align: left;
+    font-weight: 400;
+    font-size: .90em;
+    line-height: 1.1em;
+    color: black
+}
+
+img.baked {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 28%;
+    float: left;
+    padding-right: 2em;
+    margin-bottom: 2em;
+  }
+
+img.blue {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    float: right;
+    padding-right: 6em;
+    padding-top: 2em
+  }
+
+  img.twisty{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+    float: right;
+    padding-top: .5em;
+  }
+
+  img.eggsandmilk {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    float: right;
+    padding-right: 8em;
+    padding-left: 5em;
+  }
+
+  img.final {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    float: right;
+    padding-left: 5em;
+  }
+
+
+  section{
+    margin: 1.5em 0;
+}
+
+article{
+    margin:2.25rem 0;
+}
+
+div.intro{
+    text-align: left;
+    font-family: "Ariel", sans-serif;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+div{
+    font-size: 16px;
+    text-align: left;
+    font-family: "Ariel", sans-serif;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+
+
+
+@media (max-width:1036px){
+   
+    html{content: center;}
+    h1{font-size: 1.4em}
+    h2{font-size: 1em; line-height: 1.4em;}
+    h4{ font-size: 45px; padding-left: 0; }
+    img.blue{width: 40%; margin-left: 2em; padding-left: 0;}
+    img.eggsandmilk{width: 40%; }
+    img.baked{width: 30%; padding-right: 1em;}
+    p{font-size: .75em;}
+
+}
+
+@media (max-width:940px){
+    h1{font-size: 1.2em;}
+    img.baked{width:35%}
+    img.blue{padding-top: 2em;}
+
+@media (max-width:830px){
+        img.baked{width:43%}
+        img.blue{width:50%}
+}
+    
+
+
+@media (max-width: 800px){
+    section{content: center; margin-left: auto; margin-right: auto;}
+    h2{ text-align:center; }
+    h3{text-align: center;}
+    img.blue{width: 95%; padding-left:1em; padding-right: .5em;}
+    img.eggsandmilk{width: 35%; }
+    img.baked{padding-right: 1em; padding-left: 1em; padding-top: 1em; width: 100%}
+    img.final{width:95%}
+}
+
+
+
+
