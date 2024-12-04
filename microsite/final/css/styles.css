@@ -1,0 +1,370 @@
+h1{
+    text-align: right;
+    font-size: 55px;
+    margin: auto;
+    padding-right: 2.5em;
+    padding-top: 0.5em;
+    padding-bottom: 0;
+    font-family: "Barriecito", system-ui;
+    position: fixed;
+    right: 0;
+    color: black; 
+    text-decoration: none;
+}
+
+h1:hover{
+    font-size: 60px;
+    text-decoration: none;
+    color: black; 
+}
+
+a{
+    color:black;
+    text-decoration: none;
+}
+
+h2{
+    text-align: left;
+    font-size: 30px;
+    font-family: "Barriecito", system-ui;
+    padding-bottom: .5em;
+}
+
+h3{
+    text-align: left;
+    font-size: 14px;
+    font-weight: 400;
+    margin: auto;
+    padding-left: 15em;
+    padding-right: 15em;
+    padding-bottom: 2em;
+    line-height: 1.6rem;
+    font-family: "Geist Mono", monospace;
+}
+
+h4{
+    text-align: center;
+    font-size: 40px;
+    font-family: "Barriecito", system-ui;
+    padding-left: 1em;
+    padding-bottom: .5em;
+    padding-top: 3em;
+
+}
+
+h5{
+    text-align: center;
+    padding-left: 2em;
+    padding-right:2em;
+    font-size: 32px;
+    font-family: "Barriecito", system-ui;
+    padding-bottom: .5em;
+    padding-top: .25em;
+}
+
+h6{
+    text-align: left;
+    font-size: 16px;
+    padding-bottom: 2em;
+    font-family: "Geist Mono", monospace;
+}
+
+p{
+    text-align: left;
+    font-size: 16px;
+    padding-bottom: 2em;
+    font-family: "Geist Mono", monospace;
+}
+
+.Snoopy{
+    right: 0;
+    position:fixed;
+    width:10%;
+    padding-top: 1em;
+    padding-right: 1em;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding-right: 20px; 
+    padding-bottom: 5px;
+    padding-top: 2em;
+    font-size: 20px;
+    font-family: "Geist Mono", monospace;
+    position: fixed;
+  }
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 17em;
+  }
+
+.menu ul li {
+    margin-left: 20px;
+    
+  }
+
+.menu ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 8px 12px;
+    font-size: 1em;
+  }
+
+.menu ul li a:hover {
+    color: black;
+    text-decoration: none;
+    padding: 8px 12px;
+    font-size: 1.25em;
+  }
+
+.top-line{
+    width: 100%;
+    height: 5px;
+    background-color: black;
+}
+
+.grid img{ 
+    width: 90%;
+   
+}
+
+.grid{
+    padding: 0;
+}
+
+.grid li{ 
+    display: block;
+    width: 40%;
+    text-align: center;
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+}
+
+.using-inline-block li {
+    display: inline-block;
+}
+
+img.redhouse{
+    width:70%;
+    padding-top: 4em;
+}
+
+
+.barriecito-regular {
+    font-family: "Barriecito", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+img.Charlie1{
+    width: 60%;
+}
+
+img.Lucy1{
+    width: 55%;
+}
+
+img.Sally1{
+    width: 55%;
+}
+
+img.Linus1{
+    width: 110%;
+}
+
+img.Woodstock1{
+    width: 90%;
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  .grid-container {
+    display: grid;
+    gap: 16px; 
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+  }
+
+  .grid-item {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border: 3px solid #000000;
+    border-radius: 2px;
+    text-align: center;
+    font-size: 1.2em;
+  }
+
+
+img.CharlieCharacter{
+    width: 20%;
+    justify-content: center; 
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 1em;
+}
+
+img.LucyCharacter{
+    width: 10%;
+    justify-content: center; 
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 1em;
+}
+
+img.LilaCharacter{
+    width: 15%;
+    justify-content: center; 
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 1em;
+}
+
+img.SallyCharacter{
+    width: 11%;
+    justify-content: center; 
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 1em;
+}
+
+img.PeppermintCharacter{
+    width: 15%;
+    justify-content: center; 
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 1em;
+}
+
+img.WoodstockCharacter{
+    width: 15%;
+    justify-content: center; 
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 1em;
+}
+
+img.RerunCharacter{
+    width: 15%;
+    justify-content: center; 
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 1em;
+}
+
+
+img.PigPenCharacter{
+    width: 20%;
+    justify-content: center; 
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 1em;
+}
+
+img.MarcieCharacter{
+    width: 12%;
+    justify-content: center; 
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 1em;
+}
+
+img.FranklinCharacter{
+    width: 12%;
+    justify-content: center; 
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 1em;
+}
+
+img.Peanuts{
+    width: 40%;
+    justify-content: center; 
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 3em;
+    padding-top: 6em;
+}
+
+img.SnoopyBlue{
+    width: 30%;
+    justify-content: center; 
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 1em;
+    padding-top: 6em;
+}
+
+
+
+
+@media (max-width: 1150px) {
+    img.redhouse{padding-top: 10em;}
+    h1{padding-right:2em;}
+    h3{font-size: 18px; padding-left: 10em; padding-right: 10em;}
+    h5{padding-left: 3em;}
+  }
+
+
+@media (max-width: 1000px)  {
+    img.redhouse{width: 90%;}
+    h3{ padding-left: 5em; padding-right: 5em;}
+
+  }
+
+@media (max-width: 900px)  {
+    
+    h1{font-size: 70px; padding-right:1.8em;}
+    .Snoopy{width:15%;}
+    .menu{font-size: 15px; padding-right: 24em;}
+  }
+
+  @media (max-width: 842px)  {
+    .menu{font-size: 15px; padding-right: 20em;}
+    h2{padding-top: 3em;}
+
+  }
+
+  @media (max-width: 752px)  {
+    .menu{font-size: 18px; padding-right: 7em;}
+    img.redhouse{padding-top: 10em;}
+    .Snoopy{width:18%;}
+  }
+
+
+
+  @media (max-width: 665px)  {
+    .menu{font-size: 18px; padding-right: 3em;}
+    img.redhouse{padding-top: 20em; width:100%;}
+    h2{padding-top: 5em;}
+    .Snoopy{width:18%;}
+    h6{font-size: 16px; }
+  }
+
+  @media (max-width: 590px)  {
+    .menu{font-size: 14px; padding-right: 6em; }
+    h1{font-size: 80px; padding-top: 1em; position:fixed; padding-right: 1em;}
+    .Snoopy{width:35%; position:fixed; }
+    h6{padding-right: 0;}
+    img.redhouse{padding-top: 2em; width:100%; }
+    h2{padding-top: 5em; font-size: 40px;}
+    h4{padding-top: 6em;}
+    h3{padding-right: 1em; padding-left:1em;}
+    .menu{font-size: 10px; }
+    img.Peanuts{padding-top: 15em; width: 60%;}
+    img.CharlieCharacter{width: 50%}
+    img.LucyCharacter{width:30%}
+    img.SnoopyBlue {padding-top: 11em; width: 50%;}
+    
+  }
